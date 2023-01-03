@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background-color: aquamarine;
+}
+
+.container1 {
+  height: 100px;
+  background-color: aqua;
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
