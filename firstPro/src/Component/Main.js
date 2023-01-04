@@ -1,12 +1,5 @@
-import "../style/mainStyle.css";
-import BodyLeft from "./BodyLeft";
-import BodyMain from "./BodyMain";
+import "../style/main.css";
 
-export default function () {
-  return (
-    <div>
-      <BodyLeft />
-      <BodyMain />
-    </div>
-  );
+export default function Main() {
+  return <div></div>;
 }
