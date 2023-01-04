@@ -6,15 +6,15 @@ export default function Header() {
       <nav class="navbar container">
         <img src="./logo-stackoverflow.png" />
         <ul>
-          <li>About</li>
-          <li>Products</li>
-          <li>For Teams</li>
+          <li><a href = "https://stackoverflow.co/">About</a></li>
+          <li><a href = "https://stackoverflow.co/">Products</a></li>
+          <li><a href = "https://stackoverflow.co/teams/">For Teams</a></li>
         </ul>
         <form>
           <input
             class="search"
             type="search"
-            placeholder="Search"
+            placeholder="Search..."
             arial-label="Search"
           ></input>
           <button class="btn" type="Button">

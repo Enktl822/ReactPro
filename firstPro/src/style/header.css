@@ -5,8 +5,8 @@
 }
 
 header {
-  background-color: rgb(243, 243, 243);
-  border-top: 3px solid orange;
+  background-color: rgba(248, 249, 249, 1);
+  border-top: 3px solid rgba(229, 136, 62, 1);
 }
 
 .container {
@@ -17,9 +17,9 @@ header {
 
 .navbar {
   display: flex;
-  gap: 30px;
   align-items: center;
-  padding: 10px 30px 10px 30px;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .navbar ul {
@@ -28,8 +28,20 @@ header {
   gap: 30px;
 }
 
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  color: rgba(83, 89, 95, 1);
+}
+
+.navbar ul li a :hover{
+  border-radius: 20px;
+  background-color: rgba(227, 230, 232, 1);
+  
+}
+
 img {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
@@ -41,26 +53,27 @@ form {
 
 .search {
   background-color: white;
-  width: 550px;
+  width: 650px;
   height: 35px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 3px;
   border: 1px solid grey;
 }
 
 .btn {
   padding: 0px 10px 0 10px;
   height: 35px;
-  border: 1px solid rgb(23, 116, 255);
-  border-radius: 5px;
-  color: rgb(0, 56, 141);
-  background-color: rgb(213, 230, 255);
+  border: 1px solid rgba(72, 114, 153, 1);
+  border-radius: 3px;
+  color: rgba(72, 114, 153, 1);
+  background-color: rgba(227, 236, 243, 1);
+  
 }
 .btn2 {
-  background-color: rgb(68, 143, 255);
+  background-color: rgba(67, 147, 247, 1);
   padding: 0px 10px 0 10px;
   height: 35px;
   color: white;
   border: 1px solid blue;
-  border-radius: 5px;
+  border-radius: 3px;
 }

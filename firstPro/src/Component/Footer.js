@@ -2,137 +2,139 @@ import "../style/footer.css";
 
 export default function Footer() {
   return (
-    <div class="footer">
-      <div class="container footer-flex">
-        <div class="logo">
+    <div className="footer">
+      <div className="container footer-flex">
+        <div className="logo">
           <img src="./stack-icon.png" />
         </div>
-        <div class="footer-cols">
-          <div class="footer-col">
-            <h2 class="footer-title">
-              <a href="#">STACK OVERFLOW</a>
+
+        <div className="footer-cols">
+          <div className="footer-col">
+            <h2 className="footer-title">
+              <a href="https://stackoverflow.com/">STACK OVERFLOW</a>
             </h2>
             <ul>
               <li>
-                <a href="#">Questions</a>
+                <a href="https://stackoverflow.com/questions">Questions</a>
               </li>
               <li>
-                <a href="#">Help</a>
+                <a href="https://stackoverflow.com/help">Help</a>
               </li>
             </ul>
           </div>
 
           <div className="footer-col">
-            <h2 class="footer-title">
-              <a href="#">PRODUCTS</a>
+            <h2 className="footer-title">
+              <a href="https://stackoverflow.co/">PRODUCTS</a>
             </h2>
             <ul>
               <li>
-                <a href="#">Teams</a>
+                <a href="https://stackoverflow.co/teams/">Teams</a>
               </li>
               <li>
-                <a href="#">Advertising</a>
+                <a href="https://stackoverflow.co/advertising/">Advertising</a>
               </li>
               <li>
-                <a href="#">Collectives</a>
+                <a href="https://stackoverflow.co/collectives/">Collectives</a>
               </li>
               <li>
-                <a href="#">Talent</a>
+                <a href="https://stackoverflow.co/talent/">Talent</a>
               </li>
             </ul>
           </div>
 
-          <div class="footer-col">
-            <h2 class="footer-title">
-              <a href="#">COMPANY</a>
+          <div className="footer-col">
+            <h2 className="footer-title">
+              <a href="https://stackoverflow.co/">COMPANY</a>
             </h2>
             <ul>
               <li>
-                <a href="#">About</a>
+                <a href="https://stackoverflow.co/">About</a>
               </li>
               <li>
-                <a href="#">Press</a>
+                <a href="https://stackoverflow.co/company/press">Press</a>
               </li>
               <li>
-                <a href="#">Work Here</a>
+                <a href="https://stackoverflow.co/company/work-here">Work Here</a>
               </li>
               <li>
-                <a href="#">Legal</a>
+                <a href="https://stackoverflow.com/legal/terms-of-service">Legal</a>
               </li>
               <li>
-                <a href="#">Privacy Plocy</a>
+                <a href="https://stackoverflow.com/legal/privacy-policy">Privacy Plocy</a>
               </li>
               <li>
-                <a href="#">Terms of Service</a>
+                <a href="https://stackoverflow.com/legal/terms-of-service">Terms of Service</a>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <a href="https://stackoverflow.co/company/contact">Contact Us</a>
               </li>
               <li>
-                <a href="#">Cookie Settings</a>
+                <a href="https://stackoverflow.com/questions/62088924/check-the-repeated-words-in-a-string-and-keep-a-count-in-javascript#">Cookie Settings</a>
               </li>
               <li>
-                <a href="#">Cookie Policy</a>
+                <a href="https://stackoverflow.com/legal/cookie-policy">Cookie Policy</a>
               </li>
             </ul>
           </div>
 
-          <div class="footer-col">
+          <div className="footer-col">
             {" "}
-            <h2 class="footer-title">
-              <a href="#">STACK EXCHANGE NETWORK</a>
+            <h2 className="footer-title">
+              <a href="https://stackexchange.com/">STACK EXCHANGE NETWORK</a>
             </h2>
             <ul>
               <li>
-                <a href="#">About</a>
+                <a href="https://stackexchange.com/sites#technology">Technology</a>
               </li>
               <li>
-                <a href="#">Press</a>
+                <a href="https://stackexchange.com/sites#culturerecreation">Culture & recreation</a>
               </li>
               <li>
-                <a href="#">Work Here</a>
+                <a href="https://stackexchange.com/sites#lifearts">Life & arts</a>
               </li>
               <li>
-                <a href="#">Legal</a>
+                <a href="https://stackexchange.com/sites#science">Science</a>
               </li>
               <li>
-                <a href="#">Privacy Plocy</a>
+                <a href="https://stackexchange.com/sites#professional">Professional</a>
               </li>
               <li>
-                <a href="#">Terms of Service</a>
+                <a href="https://stackexchange.com/sites#business">Bussiness</a>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <a href="#"> </a>
               </li>
               <li>
-                <a href="#">Cookie Settings</a>
+                <a href="https://api.stackexchange.com/">API</a>
               </li>
               <li>
-                <a href="#">Cookie Policy</a>
+                <a href="https://data.stackexchange.com/">Data</a>
               </li>
             </ul>
           </div>
 
-          <div class="footer-copyright">
+        </div>
+
+        <div className="footer-copyright">
             <ul>
-              <li>Blog</li>
-              <li>Facebook</li>
-              <li>Twitter</li>
-              <li>LinkedIn</li>
-              <li>Instagram</li>
+              <li><a href= "https://stackoverflow.blog/?blb=1&_ga=2.24093874.900605182.1672828538-454402027.1668647147">Blog</a></li>
+              <li><a href= "https://www.facebook.com/officialstackoverflow/">Facebook</a></li>
+              <li><a href= "https://twitter.com/stackoverflow">Twitter</a></li>
+              <li><a href= "https://www.linkedin.com/company/stack-overflow">LinkedIn</a></li>
+              <li><a href= "https://www.instagram.com/thestackoverflow/">Instagram</a></li>
             </ul>
 
             <p>
               Site design / logo © 2023 Stack Exchange Inc; user contributions
               licensed under{" "}
-              <span class="td-underline">
+              <span className="td-underline">
                 {" "}
-                <a href="#">CC BY-SA.</a>
+                <a href="https://stackoverflow.com/help/licensing">CC BY-SA.</a>
               </span>{" "}
               rev 2023.1.3.43129
             </p>
           </div>
-        </div>
       </div>
     </div>
   );

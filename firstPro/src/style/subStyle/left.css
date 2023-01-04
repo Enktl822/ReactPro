@@ -3,14 +3,34 @@
   box-sizing: border-box;
   padding: 0;
 }
-body {
-  background-color: aquamarine;
+.left{
+  width: 180px;
 }
 
-.container1 {
-  height: 100px;
-  background-color: aqua;
-  width: 100%;
-  max-width: 1280px;
-  margin: auto;
+.left ul li a{
+  text-decoration: none;
+  font-size: 13px;
+  color: rgba(83, 89, 95, 1);
+}
+.left ul li a span {
+  color: black;
+  font-weight: 800;
+  padding-left: 7px;
+}
+
+.left ul li {
+  padding: 10px 0;
+}
+
+.public-items {
+  padding-left: 30px;
+  font-weight: 600;
+}
+.ques-back{
+  background-color: rgba(241, 242, 243, 1);
+  border-right: 3px solid rgba(229, 136, 62, 1);
+}
+
+.globe {
+  margin-left: -23px;
 }

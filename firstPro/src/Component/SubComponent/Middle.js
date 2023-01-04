@@ -1,5 +1,9 @@
 import "../../style/subStyle/middle.css";
 
 export default function Middle() {
-  return <div></div>;
+  return (
+  <div className = "middle">
+    <p>oo</p>
+  </div>
+  );
 }
